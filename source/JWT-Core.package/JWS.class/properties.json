@@ -1,11 +1,15 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "JSONWebToken",
 	"category" : "JWT-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "JWTParser",
+	"instvars" : [
+		"header",
+		"payload",
+		"signature"
+	],
+	"name" : "JWS",
 	"type" : "normal"
 }

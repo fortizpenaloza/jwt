@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "PlainJWT",
+	"name" : "JSONWebTokenParser",
 	"type" : "normal"
 }

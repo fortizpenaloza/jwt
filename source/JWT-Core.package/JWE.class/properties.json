@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "JSONWebToken",
+	"category" : "JWT-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "JWE",
+	"type" : "normal"
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "fortizpenaloza 9/27/2017 01:18",
+	"super" : "Object",
+	"category" : "JWT-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "JSONWebToken",
+	"type" : "normal"
+}
