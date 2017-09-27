@@ -5,9 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"base64URLDecoder"
-	],
-	"name" : "JSONWebTokenParser",
+	"instvars" : [ ],
+	"name" : "Base64URLCodec",
 	"type" : "normal"
 }

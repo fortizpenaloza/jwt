@@ -4,4 +4,4 @@ headed: aJOSEHeader holding: aJWSPayload signature: aSignature
 	^ self new
 		initializeHeaded: aJOSEHeader
 		holding: aJWSPayload
-		signature: nil
+		signature: aSignature

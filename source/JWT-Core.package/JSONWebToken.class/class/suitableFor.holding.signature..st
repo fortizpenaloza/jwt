@@ -1,9 +1,11 @@
 instance creation
-suitableFor: aHeader holding: aPayload signature: anObject
+suitableFor: aHeader holding: aPayload signature: aSignature
 
-	| klass |
+	| json klass |
+	
+	json := NeoJSONObject fromString: aHeader.
 
 	klass := self subclasses
-		detect: [ :class | class suitableFor: aHeader ].
+		detect: [ :class | class suitableFor: json ].
 
-	^ klass headed: aHeader holding: aPayload signature: nil
+	^ klass headed: aHeader holding: aPayload signature: aSignature
