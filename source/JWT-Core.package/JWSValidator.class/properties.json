@@ -5,7 +5,9 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "JWSVerifier",
+	"instvars" : [
+		"base64URLCodec"
+	],
+	"name" : "JWSValidator",
 	"type" : "normal"
 }

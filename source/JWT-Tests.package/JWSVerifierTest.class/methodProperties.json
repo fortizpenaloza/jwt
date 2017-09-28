@@ -1,6 +1,7 @@
 {
 	"instance" : {
-		"testVerifyHMACSignature" : "fortizpenaloza 9/27/2017 15:01"
+		"testRS256SignatureValidation" : "fortizpenaloza 9/28/2017 18:56",
+		"testHS256SignatureValidation" : "fortizpenaloza 9/28/2017 18:24"
 	},
 	"class" : { }
 }
